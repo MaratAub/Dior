@@ -1,0 +1,33 @@
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    margin-bottom: 100px;
+}
+
+.header__title {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-left: auto;
+}
+
+.menu {
+    margin-right: 185px;
+    margin-left: 130px;
+}
+
+.menu__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.menu__item {
+    font-size: 12px;
+}
+
+.user-nav {
+    display: flex;
+    gap: 20px;
+}
