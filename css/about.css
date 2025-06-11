@@ -1,0 +1,54 @@
+.about {
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+
+.about__inner {
+    margin-left: 200px;
+}
+
+.about__title {
+    max-width: 185px;
+    font-family: "Playfair Display", serif;
+    font-size: 32px;
+    line-height: 1.34;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.about__textbox {
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.about__text {
+    flex-basis: 387px;
+    line-height: 1.2;
+}
+
+.about__text--bold {
+    font-weight: 700;
+}
+
+.about__text p {
+    margin-bottom: 15px;
+}
+.about__slider {
+    width: 1600px;
+}
+
+.about__item-title {
+    margin-bottom: 20px;
+}
+
+.about__arrow {
+    margin-left: -200px;
+}
+
+.about__btn {
+    min-width: 386px;
+    text-align: center;
+    margin-top: 20px;
+}
