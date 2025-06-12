@@ -2,6 +2,9 @@
 @import url('top.css');
 @import url('about.css');
 @import url('accordeone.css');
+@import url('products.css');
+@import url('video.css');
+@import url('footer.css');
 
 
 html {
@@ -26,6 +29,13 @@ body {
     max-width: 1220px;
     padding: 0 10px;
     margin: 0 auto;
+}
+
+button {
+    background-color: transparent;
+    padding: 0;
+    border: 0;
+    cursor: pointer;
 }
 
 ul {

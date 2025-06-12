@@ -1,0 +1,16 @@
+.video {
+    margin-bottom: 150px;
+}
+
+.video__box {
+    margin-left: auto;
+    max-width: 997px;
+    min-height: 600px;
+    background-image: url(../images/video-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

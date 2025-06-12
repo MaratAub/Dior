@@ -1,0 +1,60 @@
+
+.products {
+    margin-bottom: 150px;
+}
+
+.products__inner {
+    position: relative;
+    min-height: 647px;
+}
+
+.products__title {
+    font-family: "Playfair Display", serif;
+    max-width: 96px;
+    font-size: 32px;
+    line-height: 1.34;
+}
+
+.products__items {
+    display: flex;
+    gap: 0 20px;
+    position: absolute;
+    top: 0;
+    left: 200px;
+}
+
+.product__item {
+    min-width: 386px;
+    text-align: center;
+}
+
+.product__item-step {
+    font-weight: 700;
+    line-height: 1.2;
+    opacity: 0.5;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.products__item-img {
+    margin-bottom: 20px;
+}
+
+.products__item-name {
+    margin-bottom: 10px;
+}
+
+.products__item-name span {
+    display: block;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+
+.products__item-price {
+    font-family: "Playfair Display", serif;
+    font-size: 32px;
+    line-height: 1.34;
+    font-style: italic;
+}
